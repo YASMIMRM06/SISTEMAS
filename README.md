@@ -53,6 +53,9 @@ O desenvolvimento será realizado com:
 Esse processo garante que o sistema seja intuitivo, acessível e funcional para todos os usuários.
 **Documentação**
 No final do desenvolvimento, será gerado um documento explicando:
+   
    -O funcionamento de cada interface.
+   
    -Os processos de desenvolvimento e testes realizados.
+   
    -Esse processo garante que o sistema seja intuitivo, acessível e funcional para todos os usuários.
