@@ -1,8 +1,0 @@
-Melhorias Futuras
-"Podemos fazer algumas melhorias importantes no projeto:
-
-Adicionar integração com APIs para carregar serviços e informações dinâmicas.
-Melhorar a responsividade no CSS, garantindo que tudo fique perfeito em dispositivos móveis.
-Implementar autenticação real nas páginas de login e cadastro.
-Criar componentes reutilizáveis como botões e listas, para manter o código organizado e fácil de escalar.
-Adicionar mais estilos personalizados nas páginas, como botões animados e ícones para cada tipo de serviço."

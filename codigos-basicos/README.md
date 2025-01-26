@@ -116,3 +116,11 @@
 
 > **Explicação:** 
 > Essa página serve como a área principal do usuário. Aqui mostramos uma mensagem de boas-vindas e listamos os serviços contratados. A lista pode ser dinâmica no futuro, atualizada com base nos dados de um servidor ou banco de dados. O layout é minimalista, com foco em exibir informações claras.
+Melhorias Futuras
+"Podemos fazer algumas melhorias importantes no projeto:
+
+Adicionar integração com APIs para carregar serviços e informações dinâmicas.
+Melhorar a responsividade no CSS, garantindo que tudo fique perfeito em dispositivos móveis.
+Implementar autenticação real nas páginas de login e cadastro.
+Criar componentes reutilizáveis como botões e listas, para manter o código organizado e fácil de escalar.
+Adicionar mais estilos personalizados nas páginas, como botões animados e ícones para cada tipo de serviço."
