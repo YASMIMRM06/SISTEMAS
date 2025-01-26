@@ -11,6 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
 .App {
   text-align: center;
 }
@@ -49,3 +50,35 @@ code {
     transform: rotate(360deg);
   }
 }
+
+/* src/styles/Cadastro.css */
+.cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .cadastro h1 {
+    margin-bottom: 20px;
+  }
+  
+  .cadastro form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cadastro input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .cadastro button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
