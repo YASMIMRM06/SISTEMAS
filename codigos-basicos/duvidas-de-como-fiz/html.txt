@@ -1,0 +1,118 @@
+
+### **Explicação dos Códigos HTML**
+
+#### **1. Página de Serviços (`servicos.html`)**
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serviços Disponíveis</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="servicos">
+    <h1>Serviços Disponíveis</h1>
+    <ul>
+      <li>
+        <h2>Limpeza</h2>
+        <p>Limpeza geral da casa</p>
+        <button>Agendar</button>
+      </li>
+      <li>
+        <h2>Jardinagem</h2>
+        <p>Cuidados com o jardim</p>
+        <button>Agendar</button>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>
+
+> **Explicação:** 
+> Essa página lista os serviços disponíveis de forma simples e clara. Usamos a tag `<ul>` para criar uma lista de serviços, com cada serviço dentro de um `<li>`. Cada item da lista tem um título (`<h2>`), uma descrição (`<p>`) e um botão para agendar. O layout será estilizado usando CSS no arquivo `styles.css`.
+
+---
+
+#### **2. Página de Login (`login.html`)**
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="login">
+    <h1>Login</h1>
+    <form action="#" method="POST">
+      <input type="email" placeholder="E-mail" required>
+      <input type="password" placeholder="Senha" required>
+      <button type="submit">Entrar</button>
+    </form>
+  </div>
+</body>
+</html>
+
+
+> **Explicação:** 
+> A página de login contém um formulário simples com dois campos de entrada: um para o e-mail e outro para a senha. O atributo `required` em cada campo garante que os dados sejam preenchidos antes do envio. O botão "Entrar" envia as informações quando o formulário é preenchido corretamente. A estilização também será feita no arquivo `styles.css`.
+
+---
+
+#### **3. Página de Cadastro (`cadastro.html`)**
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="cadastro">
+    <h1>Cadastro</h1>
+    <form action="#" method="POST">
+      <input type="text" placeholder="Nome" required>
+      <input type="email" placeholder="E-mail" required>
+      <input type="password" placeholder="Senha" required>
+      <button type="submit">Cadastrar</button>
+    </form>
+  </div>
+</body>
+</html>
+
+> **Explicação:** 
+> Semelhante à página de login, mas aqui temos um campo adicional para o nome do usuário. Essa página coleta os dados necessários para criar uma conta. O formulário é enviado usando o método POST para maior segurança. Todo o layout será estilizado para facilitar a navegação.
+
+---
+
+#### **4. Página de Dashboard (`dashboard.html`)**
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="dashboard">
+    <h1>Dashboard do Usuário</h1>
+    <p>Bem-vindo, [Nome do Usuário]</p>
+    <h2>Serviços Contratados</h2>
+    <ul>
+      <li>Limpeza - Data: 25/01/2025</li>
+      <li>Jardinagem - Data: 30/01/2025</li>
+    </ul>
+  </div>
+</body>
+</html>
+
+> **Explicação:** 
+> Essa página serve como a área principal do usuário. Aqui mostramos uma mensagem de boas-vindas e listamos os serviços contratados. A lista pode ser dinâmica no futuro, atualizada com base nos dados de um servidor ou banco de dados. O layout é minimalista, com foco em exibir informações claras.
