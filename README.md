@@ -2,7 +2,7 @@
 
 ## Objetivo do Projeto
 
-O projeto visa criar um **sistema web responsivo** com 4 interfaces principais, com foco na abordagem **mobile first**. O sistema será desenvolvido para dispositivos móveis inicialmente e, em seguida, adaptado para telas maiores, como tablets e desktops.
+O projeto visa criar um **sistema web responsivo** com 2 interfaces principais, com foco na abordagem **mobile first**. O sistema será desenvolvido para dispositivos móveis inicialmente e, em seguida, adaptado para telas maiores, como tablets e desktops.
 
 ## Interfaces do Sistema
 
@@ -10,9 +10,6 @@ O projeto visa criar um **sistema web responsivo** com 4 interfaces principais, 
 
 - **Agendamento de Serviços**: Possibilita que usuários cadastrados agendem serviços,garantindo que apenas contas registradas possam fazer agendamentos exibindo os serviços disponíveis. 
 
-- **Confirmação do prestador**:Utilizada pelos prestadores para confirmar ou rejeitar solicitações de agendamento,com notificações de novas solicitações confirmação.
-
-- **Busca Filtrada de Serviços**: Permite que usuários busquem serviços com filtros de tipo de serviço e preço.
 
 ## Tecnologias Utilizadas
 
