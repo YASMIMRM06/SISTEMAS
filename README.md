@@ -15,9 +15,7 @@ O projeto visa criar um **sistema web responsivo** com cinco interfaces principa
 ## Tecnologias Utilizadas
 
 - **HTML** e **CSS**: Estrutura e estilização das páginas.
-- **JavaScript**: Implementação da interatividade.
-- **React.js**: Construção de interfaces dinâmicas e reutilizáveis.
-
+  
 ## Metodologia de Desenvolvimento
 
 A abordagem **Mobile First** será aplicada, priorizando o design para dispositivos móveis, seguido pela adaptação para dispositivos maiores com técnicas responsivas.
